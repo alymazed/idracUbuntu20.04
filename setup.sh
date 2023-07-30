@@ -397,9 +397,9 @@ GetOSType()
 		#fi
 		#check for Ubuntu18.
 		if [ "$OS" == "Ubuntu" ] && [ "$VER" == "22" ]; then
-				GBL_OS_TYPE=${GBL_OS_TYPE_UBUNTU18}
-				GBL_OS_TYPE_STRING="UBUNTU18"
-				PATH_TO_RPMS_SUFFIX=UBUNTU18
+				GBL_OS_TYPE=${GBL_OS_TYPE_UBUNTU20}
+				GBL_OS_TYPE_STRING="UBUNTU20"
+				PATH_TO_RPMS_SUFFIX=UBUNTU20
 		fi
 		#check for SLES15
         if [ "$OS" == "SLES" ] && [ "$VER" == "15" ]; then
